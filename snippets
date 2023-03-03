@@ -1,0 +1,6 @@
+# Training: Programming 1
+fetch('https://www.wechall.net/challenge/training/programming1/index.php?action=request')
+  .then(response => response.text())
+  .then(data => fetch('https://www.wechall.net/challenge/training/programming1/index.php?answer=' + data))
+  .then(response => response.text())
+  .then(data => console.log(data))
