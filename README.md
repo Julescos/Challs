@@ -1,3 +1,3 @@
 # Challs
 
-Adding code snippets related to challenges I face.
+Adding code snippets related to challenges.
